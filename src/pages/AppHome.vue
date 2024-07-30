@@ -1,6 +1,4 @@
 <script>
-    import AppHome from '../pages/AppHome.vue';
-
 
     export default {
         data(){
@@ -10,7 +8,7 @@
         },
 
         components:{
-            AppHome
+
         }
     }
 </script>
@@ -18,22 +16,20 @@
 
 
 <template>
-    <!-- Page Main -->
-    <main>
+    <!-- Home Page Section -->
+    <section class="home-section">
         <div class="container">
-            <h1 class="text-center text-danger">
-                Titolo del Sito
+            <h1 class="text-center text-success">
+                I miei Viaggi
             </h1>
         </div>
-
-        <AppHome></AppHome>
-    </main>
+    </section>
 </template>
 
 
 
 <style lang="scss" scoped>
-    main{
-        padding: 30px 0;
+    .home-section{
+        margin: 100px 0;
     }
 </style>

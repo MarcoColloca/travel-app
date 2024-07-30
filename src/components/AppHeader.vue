@@ -6,7 +6,7 @@
 
         data(){
             return {
-                
+
             }
         }
     }
@@ -29,7 +29,6 @@
 
 <style lang="scss" scoped>
     header{
-        height: 100px;
         background-color: coral;
     }
 </style>

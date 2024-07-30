@@ -33,7 +33,6 @@
 <style lang="scss" scoped>
 
 footer{
-    height: 100px;
     background-color: coral;
 }
 </style>

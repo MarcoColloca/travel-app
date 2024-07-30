@@ -5,6 +5,9 @@
         },
 
         data(){
+            return {
+                
+            }
         }
     }
 </script>
